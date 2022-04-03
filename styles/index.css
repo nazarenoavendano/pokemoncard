@@ -20,6 +20,10 @@ body {
   border: 2px #000 solid;
   box-shadow: 5px 5px 25px 5px grey, 
   10px 10px 50px 5px grey;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .title {
