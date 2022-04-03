@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: url(../images/iconoPokemon.png);
+  background-repeat: repeat;
+  background-attachment: scroll;
+}
+
+.contenedor {
+  margin: auto;
+  margin-top: 15px;
+  height: 400px;
+  width: 240px;
+  background-color: #E3ABB5;
+  border-radius: 15px;
+  border: 2px #000 solid;
+  box-shadow: 5px 5px 25px 5px grey, 
+  10px 10px 50px 5px grey;
+}
+
+.title {
+  font-family: 20px;
+  height: 20px;
+  width: 200px;
+  margin: auto;
+  color: #f2f2f2;
+  background-color: #008393;
+  border: 2px #000 solid;
+  border-radius: 10px;
+  position: relative;
+  bottom: 12px;
+}
+
+.title__letter {
+  text-align: center;
+}
+
+.picture {
+  perspective: 1000px;
+}
+
+.imagen {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.imagen:hover {
+  transform: rotateY(-25deg);
+  transition: 0.8s;
+}
+
+.info__box {
+  background-color: #F5D9E2;
+  border-radius: 10px;
+  color: #040405;
+  font-size: 12px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.display {
+  display: inline;
+  border-radius: 3px;
+  padding: 2px;
+}
+
+/*Declarar tipos*/
+
+.hada {
+  background-color: #FDB9E9;
+  color: #f2f2f2;
+}
+
+.normal {
+  background-color: #A4ACAF;
+  color: #f2f2f2;
+}
+
+.acero {
+  background-color: #9EB7B8;
+  color: #f2f2f2;
+}
+
+.veneno {
+  background-color: #B97FC9;
+  color: #f2f2f2;
+}
+
+/*Listo, ya declare mis tipos*/
+
+.p {
+  text-align: justify;
+  line-height: inherit;
+}
+
+.div {
+  padding: 5px;
+}
