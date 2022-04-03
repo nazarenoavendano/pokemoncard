@@ -12,7 +12,7 @@ body {
 
 .contenedor {
   margin: auto;
-  margin-top: 50px;
+  margin-top: 15px;
   height: 400px;
   width: 240px;
   background-color: #E3ABB5;
@@ -52,7 +52,7 @@ body {
 
 .imagen:hover {
   transform: rotateY(-25deg);
-  transition: 1s;
+  transition: 0.8s;
 }
 
 .info__box {
