@@ -52,7 +52,7 @@ body {
 
 .imagen:hover {
   transform: rotateY(-25deg);
-  transition: 0.8s;
+  transition: 1s;
 }
 
 .info__box {
