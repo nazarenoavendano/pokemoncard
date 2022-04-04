@@ -8,11 +8,19 @@ body {
   background: url(../images/iconoPokemon.png);
   background-repeat: repeat;
   background-attachment: scroll;
+  align-items: center;
+}
+
+.supremo {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contenedor {
   margin: auto;
-  margin-top: 20px;
+  box-sizing: border-box;
   height: 400px;
   width: 240px;
   background-color: #E3ABB5;
@@ -48,11 +56,12 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+  position: relative;
 }
 
 .imagen:hover {
-  transform: rotateY(-360deg);
-  transition: 5s;
+  transform: rotateY(360deg);
+  transition: 4.5s;
 }
 
 .info__box {
