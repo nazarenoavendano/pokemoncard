@@ -1,2 +1,2 @@
 # pokemoncard
-Es una tarjeta pokemon, un desafio que nos dió el profesor de codo a codo
+Es una tarjeta pokemon,desafio frontend codo a codo 4.0
